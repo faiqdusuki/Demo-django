@@ -1,0 +1,43 @@
+{% extends 'web/main.html' %}
+{% load static %}
+{% block content %}
+
+  <div class="card" style= "width: 18rem;">
+  <div class="container">
+    <h2>Sign In</h2>
+    <div class="dropdown-divider"></div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">ID</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type your ID">
+      </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Password</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password">
+        </div>
+        <button type="button" class="btn btn-dark">Sign In</button>
+        <br>
+
+  </div>
+  </div>
+  <br>
+
+  <div class="card" style = "width: 25rem;">
+  <div class="container">
+    <h3>Eduvision</h3>
+
+  </div>
+  </div>
+    <br>
+
+    <div class="card" style= "width:25rem;">
+
+
+      <div class="container">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+  </div>
+
+{% endblock content %}
